@@ -12,7 +12,7 @@ def pretty_print_nds(nds)
       puts "2nd col #{j} has #{nds[i][j].length} rows"
     end
   end
-  pp(nds)
+  #pp(nds)
   
   nil
 end
