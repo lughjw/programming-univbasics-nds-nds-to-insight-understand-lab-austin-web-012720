@@ -43,5 +43,6 @@ def toDollars(num)
     start /= 1000
   end
   
+  puts ret_val
   ret_val
 end
