@@ -8,7 +8,7 @@ def pretty_print_nds(nds)
   row_index = 0
   while row_index < nds.length do
     puts "col #{row_index} has #{nds.length} rows"
-    
+    row_index += 1
     
   end
   pp(nds)
