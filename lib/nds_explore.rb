@@ -29,6 +29,12 @@ end
 def toDollars(num)
   ret_val = ""
   start = 1000000000 #1 billion
+  num_array = []
+  if num >= start
+    
+    ret_val += (num/start).to_s + ","
+  end
+  
   if num >= start
     ret_val += (num/start).to_s + ","
   end
