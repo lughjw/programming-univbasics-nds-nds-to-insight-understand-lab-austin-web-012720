@@ -38,7 +38,7 @@ def toDollars(num)
   end
   
   num_str.insert(0,"$")
-  puts num_str
+  #puts num_str
   
   num_str
 end
