@@ -6,7 +6,6 @@ def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
   
   for i in 0...nds.length do
-    puts "outer col #{i} has #{nds[i].length} rows"
     puts "nds[#{i}][0]"
     puts nds[i][0]
     puts "nds[#{i}][1]"
