@@ -23,7 +23,8 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  
+  for i in 0...nds[0][:movies].length
+    puts movies[0][:movies][i][:title]
 end
 
 def toDollars(num)
