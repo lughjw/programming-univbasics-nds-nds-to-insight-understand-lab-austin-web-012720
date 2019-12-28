@@ -2,12 +2,12 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 # Call the method directors_database to retrieve the NDS
 
-movies = nil
+MOVIES = nil
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
   
-  movies = nds
+  MOVIES = nds
   for i in 0...nds.length do
     puts "#{nds[i][:name]} - #{i} of #{nds.length}"
 
@@ -23,8 +23,8 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  for i in 0...movies[0][:movies].length
-    puts movies[0][:movies][i][:title]
+  for i in 0...MOVIES[0][:movies].length
+    puts MOVIES[0][:movies][i][:title]
   end
 end
 
