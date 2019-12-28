@@ -30,7 +30,12 @@ def toDollars(num)
   
   num_str = num.to_s
   
-  while place < num_str.length
+  place = str.length-4
+  
+  while place > 2
+    
+    place -= 3
+  end
   
   ret_val = ""
   start = 1000000000 #1 billion
