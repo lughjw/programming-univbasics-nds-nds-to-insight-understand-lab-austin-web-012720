@@ -5,13 +5,12 @@ require 'directors_database'
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
   
-  row_index = 0
   for i in 0...nds.length do
-    puts "col #{row_index} has #{nds.length} rows"
-    row_index += 1
+    puts "outer col #{i} has #{nds[i].length} rows"
     
-    
-    for i in 0...nds[]
+    for j in 0...nds[i].length
+      puts "2nd col #{j} has #{nds[j].length} rows"
+    end
     
   end
   pp(nds)
