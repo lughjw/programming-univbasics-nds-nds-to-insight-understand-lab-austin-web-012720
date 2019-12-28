@@ -10,6 +10,9 @@ def pretty_print_nds(nds)
     puts "col #{row_index} has #{nds.length} rows"
     row_index += 1
     
+    
+    for i in 0...nds[]
+    
   end
   pp(nds)
   
