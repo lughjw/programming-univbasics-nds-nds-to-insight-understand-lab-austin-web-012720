@@ -38,7 +38,7 @@ def toDollars(num)
       ret_val += (num/start).to_s + ","
     end
     
-    start /= 0
+    start /= 1000
   end
   
   start /= 1000
