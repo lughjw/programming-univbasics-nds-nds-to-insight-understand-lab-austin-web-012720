@@ -8,7 +8,7 @@ def pretty_print_nds(nds)
   for i in 0...nds.length do
     puts "nds[#{i}]"
     puts nds[i][:name]
-    puts nds[i][:movies]
+    #puts nds[i][:movies]
     for j in 0...nds[i][:movies].length
       puts nds[i][:movies][j][:title]
       puts nds[i][:movies][j][:studio]
