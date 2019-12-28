@@ -35,8 +35,8 @@ def toDollars(num)
   while start > 0
     if num >= start
       num_array[i] = num/start
-      num -= num_array[i]
       ret_val += (num/start).to_s + ","
+      num -= num_array[i]
     end
     
     i += 1
