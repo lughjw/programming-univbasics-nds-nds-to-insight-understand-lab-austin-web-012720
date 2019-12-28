@@ -27,5 +27,8 @@ def print_first_directors_movie_titles
 end
 
 def toDollars(num)
-  
+  ret_val = ""
+  start = 1000000000 #1 billion
+  if num >= start
+    1000000000
 end
