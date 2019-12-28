@@ -16,6 +16,7 @@ def pretty_print_nds(nds)
       puts "\tYear:\t" + nds[i][:movies][j][:release_year].to_s
     end
     
+    print "\n"
   end
   pp(nds)
   
