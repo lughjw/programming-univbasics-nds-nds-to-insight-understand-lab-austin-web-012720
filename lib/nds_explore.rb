@@ -11,7 +11,6 @@ def pretty_print_nds(nds)
     for j in 0...nds[i].length
       puts "2nd col #{j} has #{nds[i][j].length} rows"
     end
-    
   end
   pp(nds)
   
