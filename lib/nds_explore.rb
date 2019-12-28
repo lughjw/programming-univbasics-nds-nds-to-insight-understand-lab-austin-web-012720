@@ -12,7 +12,6 @@ def pretty_print_nds(nds)
     #puts nds[i][:studio]
     #puts nds[i][:worldwide_gross]
     #puts nds[i][:release_year]
-    
     #puts nds[i][:movies]
     
   end
