@@ -9,7 +9,7 @@ def pretty_print_nds(nds)
     puts "outer col #{i} has #{nds[i].length} rows"
     
     for j in 0...nds[i].length
-      puts "2nd col #{j} has #{nds[j].length} rows"
+      puts "2nd col #{j} has #{nds[i][j].length} rows"
     end
     
   end
