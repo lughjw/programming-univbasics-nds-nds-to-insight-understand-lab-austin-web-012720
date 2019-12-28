@@ -12,7 +12,7 @@ def pretty_print_nds(nds)
     for j in 0...nds[i][:movies].length
       puts "\tTitle:\t" + nds[i][:movies][j][:title].to_s
       puts "\tStudio:\t" + nds[i][:movies][j][:studio].to_s
-      puts "\tGross:\t" + nds[i][:movies][j][:worldwide_gross].to_s
+      puts "\tGross:\t" + toDollars(nds[i][:movies][j][:worldwide_gross])
       puts "\tYear:\t" + nds[i][:movies][j][:release_year].to_s
     end
     
