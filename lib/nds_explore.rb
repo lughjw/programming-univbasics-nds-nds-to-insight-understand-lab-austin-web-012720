@@ -30,7 +30,7 @@ def toDollars(num)
   
   num_str = num.to_s
   
-  place = num_str.length-4
+  place = num_str.length-3
   
   while place > 2
     num_str.insert(place, ",")
