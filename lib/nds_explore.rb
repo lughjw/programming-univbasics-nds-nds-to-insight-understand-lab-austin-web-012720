@@ -9,8 +9,8 @@ def pretty_print_nds(nds)
     puts "nds[#{i}][0]"
     puts nds[i][:name]
     puts nds[i][:movies]
-    puts nds[i][:studio]
-    puts nds[i][:worldwide_gross]
+    #puts nds[i][:studio]
+    #puts nds[i][:worldwide_gross]
     puts nds[i][:release_year]
     puts nds[i][]
     puts "nds[#{i}][1]"
