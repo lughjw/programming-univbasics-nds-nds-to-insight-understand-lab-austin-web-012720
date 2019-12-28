@@ -7,7 +7,8 @@ def pretty_print_nds(nds)
   
   for i in 0...nds.length do
     puts "outer col #{i} has #{nds[i].length} rows"
-    puts nds[i][0][1]
+    puts nds[i][0]
+    puts nds[i][1]
     puts "\t" + nds[i][:movies].to_s
     
   end
