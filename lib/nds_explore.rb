@@ -31,7 +31,7 @@ def toDollars(num)
   start = 1000000000 #1 billion
   num_array = []
   
-  while start > 0
+  while start > 1
     if num >= start
       num_array[0] = num/start
       num -= num_array[0]
