@@ -14,7 +14,7 @@ def pretty_print_nds(nds)
       end
     end
   end
-  #pp(nds)
+  pp(nds)
   
   nil
 end
