@@ -10,10 +10,10 @@ def pretty_print_nds(nds)
     puts nds[i][:name]
     #puts nds[i][:movies]
     for j in 0...nds[i][:movies].length
-      puts "\t" + nds[i][:movies][j][:title]
-      puts "\t" + nds[i][:movies][j][:studio]
-      puts "\t" + nds[i][:movies][j][:worldwide_gross]
-      puts "\t" + nds[i][:movies][j][:release_year]
+      puts "\t" + nds[i][:movies][j][:title].to_s
+      puts "\t" + nds[i][:movies][j][:studio].to_s
+      puts "\t" + nds[i][:movies][j][:worldwide_gross].to_s
+      puts "\t" + nds[i][:movies][j][:release_year].to_s
     end
     
   end
