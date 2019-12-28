@@ -10,7 +10,7 @@ def pretty_print_nds(nds)
     puts nds[i][0]
     puts "nds[#{i}][1]"
     puts nds[i][1]
-    puts "\t" + nds[i][:movies].to_s
+    #puts nds[i][:movies]
     
   end
   pp(nds)
