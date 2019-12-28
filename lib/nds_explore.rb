@@ -23,6 +23,8 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  
+  dd = directors_database
   for i in 0...MOVIES[0][:movies].length
     puts MOVIES[0][:movies][i][:title]
   end
