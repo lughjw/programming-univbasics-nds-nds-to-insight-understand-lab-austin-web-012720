@@ -4,8 +4,18 @@ require 'directors_database'
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
+  
+  row_index = 0
+  while row_index < nds.length do
+    puts "col #{row_index} has #{nds.length} rows"
+    
+    
+  end
+  pp(nds)
+  
   nil
 end
 
 def print_first_directors_movie_titles
+  
 end
