@@ -30,5 +30,6 @@ def toDollars(num)
   ret_val = ""
   start = 1000000000 #1 billion
   if num >= start
-    1000000000
+    ret_val += (num/start).to_s + ","
+  end
 end
