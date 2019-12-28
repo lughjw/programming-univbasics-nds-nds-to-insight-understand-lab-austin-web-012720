@@ -37,22 +37,5 @@ def toDollars(num)
     place -= 3
   end
   
-  ret_val = ""
-  start = 1000000000 #1 billion
-  num_array = []
-  i = 0
-  
-  while start > 0
-    if num >= start
-      num_array[i] = num/start
-      ret_val += (num/start).to_s + ","
-      num -= num_array[i]
-    end
-    
-    i += 1
-    start /= 1000
-  end
-  
-  puts ret_val
-  ret_val
+  puts num_str
 end
