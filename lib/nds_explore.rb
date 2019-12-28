@@ -43,19 +43,5 @@ def toDollars(num)
     start /= 1000
   end
   
-  start /= 1000
-  
-  if start > 0 && num >= start
-    num_array[1] = num/start
-    num -= num_array[1]
-    ret_val += (num/start).to_s + ","
-  end
-  
-  start /= 1000
-  
-  if start > 0 && num >= start
-    num_array[1] = num/start
-    num -= num_array[1]
-    ret_val += (num/start).to_s + ","
-  end
+  ret_val
 end
