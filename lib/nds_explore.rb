@@ -32,7 +32,7 @@ def toDollars(num)
   num_array = []
   if num >= start
     num_array[0] = num/start
-    num -= num[0]
+    num -= num_array[0]
     ret_val += (num/start).to_s + ","
   end
   
