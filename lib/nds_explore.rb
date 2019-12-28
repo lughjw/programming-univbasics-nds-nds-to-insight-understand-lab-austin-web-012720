@@ -8,11 +8,7 @@ def pretty_print_nds(nds)
   for i in 0...nds.length do
     puts "outer col #{i} has #{nds[i].length} rows"
     puts nds[i]
-    for j in 0...nds[i].length
-      if nds[i][j] != nil
-        puts "2nd col #{j} has #{nds[i][j].length} rows"
-      end
-    end
+    
   end
   pp(nds)
   
